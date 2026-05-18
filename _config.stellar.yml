@@ -1,0 +1,26 @@
+logo:
+  avatar: '[/my-blog/img/avatar.png](/)'
+  title: "[JingweiYan's Blog](/my-blog/)"
+  subtitle: 'Welcome to my blog!'
+
+site_tree:
+  home:
+    leftbar: recent, tagcloud
+    rightbar:
+  index_blog:
+    base_dir: blog
+    menu_id: post
+    leftbar: recent, tagcloud
+    rightbar:
+    nav_tabs:
+      分类: /categories/
+      标签: /tags/
+      GitHub: https://github.com/jingweiyan813-gif
+  post:
+    menu_id: post
+    leftbar: recent, tagcloud
+    rightbar: toc
+
+structured_data:
+  links:
+    - https://github.com/jingweiyan813-gif
