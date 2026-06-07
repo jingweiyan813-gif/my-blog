@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+  <title id="title">从源系统到 ODS</title>
+  <desc id="desc">从业务系统、日志、对象存储和反馈数据进入同步任务，并落到 Hive ODS 的通用接入链路。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#5b6575"/>
+    </marker>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#4ea5d9"/>
+      <stop offset="100%" stop-color="#63b77c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#101828" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="720" fill="#f7f9fc"/>
+  <rect x="64" y="56" width="1312" height="608" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="112" y="108" width="1216" height="4" rx="2" fill="url(#header)"/>
+
+  <text x="112" y="168" fill="#18202f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700">从源系统到 ODS</text>
+  <text x="112" y="202" fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18">面向离线分析、可追溯、分区处理和历史回刷的通用接入链路</text>
+
+  <rect x="112" y="258" width="220" height="252" rx="16" fill="#eef5ff" stroke="#b9d7ff"/>
+  <text x="142" y="304" fill="#275d99" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">01 / 源系统</text>
+  <text x="142" y="342" fill="#18202f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">业务数据</text>
+  <text x="142" y="384" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">MySQL / RDS</text>
+  <text x="142" y="420" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">应用日志</text>
+  <text x="142" y="456" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">对象存储</text>
+
+  <rect x="432" y="258" width="220" height="252" rx="16" fill="#f3f6fb" stroke="#ced8e8"/>
+  <text x="462" y="304" fill="#5b6575" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">02 / 同步</text>
+  <text x="462" y="342" fill="#18202f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">调度任务</text>
+  <text x="462" y="384" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">全量 / 增量同步</text>
+  <text x="462" y="420" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">Binlog / CDC 捕获</text>
+  <text x="462" y="456" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">重试与依赖</text>
+
+  <rect x="752" y="258" width="220" height="252" rx="16" fill="#fff7eb" stroke="#f3d09b"/>
+  <text x="782" y="304" fill="#a86413" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">03 / 落仓</text>
+  <text x="782" y="342" fill="#18202f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">Hive ODS</text>
+  <text x="782" y="384" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">贴源记录</text>
+  <text x="782" y="420" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">按日期分区</text>
+  <text x="782" y="456" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">可追溯 / 可回刷</text>
+
+  <rect x="1072" y="258" width="220" height="252" rx="16" fill="#eefaf3" stroke="#b8dfc6"/>
+  <text x="1102" y="304" fill="#2f7b4f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="700">04 / 下游</text>
+  <text x="1102" y="342" fill="#18202f" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="700">DWD / 服务层</text>
+  <text x="1102" y="384" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">清洗与标准化</text>
+  <text x="1102" y="420" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">明细建模</text>
+  <text x="1102" y="456" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">BI / API / 评测</text>
+
+  <path d="M332 384 H420" stroke="#5b6575" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+  <path d="M652 384 H740" stroke="#5b6575" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+  <path d="M972 384 H1060" stroke="#5b6575" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+
+  <path d="M222 258 C222 214 510 214 542 258" stroke="#7d89a0" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+  <text x="382" y="242" text-anchor="middle" fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16">Binlog / CDC</text>
+
+  <rect x="206" y="558" width="1028" height="58" rx="14" fill="#f3f6fb" stroke="#d6deeb"/>
+  <text x="232" y="594" fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700">工程关注项</text>
+  <text x="438" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">分区</text>
+  <text x="552" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">水位</text>
+  <text x="686" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">幂等</text>
+  <text x="846" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">血缘</text>
+  <text x="948" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">质量校验</text>
+  <text x="1112" y="594" fill="#475467" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17">回刷</text>
+</svg>
