@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">数据质量与排障闭环</title>
+  <desc id="desc">从表产出到数据校验、问题定位、修复回刷、质量监控和规则沉淀的数据质量排障闭环。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .node { fill: #ffffff; stroke: #213547; stroke-width: 2; rx: 12; }
+      .node-strong { fill: #edf6ff; stroke: #1f6feb; stroke-width: 2.2; rx: 12; }
+      .title { font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .label { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .small { font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #475569; }
+      .arrow { stroke: #52657a; stroke-width: 2.4; fill: none; marker-end: url(#arrowhead); }
+      .dash { stroke: #9aa8b6; stroke-width: 2; fill: none; stroke-dasharray: 7 7; marker-end: url(#arrowhead-muted); }
+      .band { fill: #eaf0f6; rx: 14; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#52657a"/>
+    </marker>
+    <marker id="arrowhead-muted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#9aa8b6"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="560"/>
+  <text class="title" x="60" y="58">数据质量与排障闭环：表跑出来之后，还要证明它可信</text>
+
+  <rect class="band" x="48" y="92" width="1104" height="356"/>
+
+  <rect class="node" x="80" y="150" width="170" height="104"/>
+  <text class="label" x="116" y="188">表产出</text>
+  <text class="small" x="104" y="218">任务成功</text>
+  <text class="small" x="104" y="240">分区落盘</text>
+
+  <path class="arrow" d="M250 202 H320"/>
+
+  <rect class="node-strong" x="320" y="136" width="184" height="132"/>
+  <text class="label" x="360" y="176">质量校验</text>
+  <text class="small" x="348" y="207">完整性 / 准确性</text>
+  <text class="small" x="348" y="230">一致性 / 及时性</text>
+  <text class="small" x="348" y="253">唯一性 / 合理性</text>
+
+  <path class="arrow" d="M504 202 H574"/>
+
+  <rect class="node" x="574" y="136" width="184" height="132"/>
+  <text class="label" x="614" y="176">问题定位</text>
+  <text class="small" x="604" y="207">分区对比</text>
+  <text class="small" x="604" y="230">血缘追溯</text>
+  <text class="small" x="604" y="253">代码与口径核对</text>
+
+  <path class="arrow" d="M758 202 H828"/>
+
+  <rect class="node" x="828" y="136" width="184" height="132"/>
+  <text class="label" x="868" y="176">修复回刷</text>
+  <text class="small" x="858" y="207">重跑 / 补数</text>
+  <text class="small" x="858" y="230">逻辑修复</text>
+  <text class="small" x="858" y="253">影响面确认</text>
+
+  <path class="arrow" d="M920 268 V330"/>
+
+  <rect class="node-strong" x="828" y="330" width="184" height="92"/>
+  <text class="label" x="868" y="368">规则沉淀</text>
+  <text class="small" x="856" y="399">监控 / 告警 / 变更门禁</text>
+
+  <path class="dash" d="M828 376 H412 V268"/>
+
+  <rect class="node" x="320" y="330" width="184" height="92"/>
+  <text class="label" x="362" y="368">可信消费</text>
+  <text class="small" x="348" y="399">BI / ADS / 数据服务</text>
+
+  <path class="arrow" d="M828 376 H504"/>
+
+  <text class="small" x="82" y="498">排障不是“把任务跑绿”，而是把影响范围、根因、修复动作和防复发规则闭环起来。</text>
+</svg>
