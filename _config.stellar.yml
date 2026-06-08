@@ -19,6 +19,7 @@ site_tree:
               <summary>数据开发</summary>
               <a href="/my-blog/数据开发/data-warehouse-problem/">01｜从业务库到数据资产</a>
               <a href="/my-blog/数据开发/etl-to-layered-warehouse/">02｜从源系统到 ODS</a>
+              <a href="/my-blog/数据开发/fact-to-wide-table/">03｜数据进仓之后</a>
             </details>
             <details>
               <summary>AI 数据与评测工程</summary>
@@ -49,6 +50,7 @@ site_tree:
               <summary>数据开发</summary>
               <a href="/my-blog/数据开发/data-warehouse-problem/">01｜从业务库到数据资产</a>
               <a href="/my-blog/数据开发/etl-to-layered-warehouse/">02｜从源系统到 ODS</a>
+              <a href="/my-blog/数据开发/fact-to-wide-table/">03｜数据进仓之后</a>
             </details>
             <details>
               <summary>AI 数据与评测工程</summary>
@@ -80,6 +82,7 @@ site_tree:
               <summary>数据开发</summary>
               <a href="/my-blog/数据开发/data-warehouse-problem/">01｜从业务库到数据资产</a>
               <a href="/my-blog/数据开发/etl-to-layered-warehouse/">02｜从源系统到 ODS</a>
+              <a href="/my-blog/数据开发/fact-to-wide-table/">03｜数据进仓之后</a>
             </details>
             <details>
               <summary>AI 数据与评测工程</summary>
@@ -114,6 +117,7 @@ site_tree:
               <summary>数据开发</summary>
               <a href="/my-blog/数据开发/data-warehouse-problem/">01｜从业务库到数据资产</a>
               <a href="/my-blog/数据开发/etl-to-layered-warehouse/">02｜从源系统到 ODS</a>
+              <a href="/my-blog/数据开发/fact-to-wide-table/">03｜数据进仓之后</a>
             </details>
             <details>
               <summary>AI 数据与评测工程</summary>
